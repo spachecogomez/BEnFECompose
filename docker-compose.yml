@@ -1,0 +1,8 @@
+version: "3"
+services: 
+  front-end:
+    build: frontend/.
+    replicas: 2
+  back-end:
+    build: backend/.
+    replicas: 2 
