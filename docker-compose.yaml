@@ -1,0 +1,20 @@
+version: "3"
+services: 
+  git:
+    build: clone/.
+    volumes:
+    - datavolume:/source_code/
+  compile_front:
+    build: compile_front/.
+    volumes: 
+    - datavolume:/source_code/
+    depends_on:
+    - "git"
+  #backend:
+  #  build: backend/.
+  #frontend:
+  #  build: frontend/.
+  #  depends_on: 
+  #  - "compile_front"
+volumes:
+  datavolume: 

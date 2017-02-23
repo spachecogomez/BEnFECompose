@@ -1,0 +1,15 @@
+version: "3"
+services: 
+ #clone code from github
+ #compilebakcend
+ #compile front end using the beackend hostname 
+ #build backend
+ #build front end
+  front-end:
+    image: frontend
+    deploy:
+      replicas: 2
+  back-end:
+    image: backend
+    deploy:
+      replicas: 2
