@@ -4,12 +4,19 @@ services:
     build: clone/.
     volumes:
     - /tmp/datavolume/:/source_code/
-  compile_front:
-    build: compile_front/.
+  npm:
+    build: npm/.
+    image: automate-build/npm
     volumes: 
-    - /tmp/datavolume/:/source_code/
+    - /tmp/datavolume/frontend:/source_code/
     depends_on:
     - "git"
+  node:
+    build: node/.
+    volumes:
+    - /tmp/datavolume/frontend:/source_code/
+    depends_on:
+    - "npm"
   #backend:
   #  build: backend/.
   #frontend:
