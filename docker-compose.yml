@@ -7,13 +7,13 @@ services:
   node:
     build: node/.
     volumes:
-    - /tmp/datavolume/frontend:/source_code/
+    - /tmp/datavolume/b2ctouresbalon:/source_code/
     depends_on:
     - git
   httpd:
     build: httpd/.
     volumes:
-    - /tmp/datavolume/frontend/:/site/
+    - /tmp/datavolume/b2ctouresbalon/:/site/
     ports:
     - "8080:80"
     depends_on:
