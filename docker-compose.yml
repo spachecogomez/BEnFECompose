@@ -1,20 +1,29 @@
 version: "2"
 services: 
   git:
-    build: clone/.
+    build: 
+      clone/.
     volumes:
     - /tmp/datavolume/:/source_code/
-  node:
-    build: node/.
-    volumes:
-    - /tmp/datavolume/b2ctouresbalon:/source_code/
+  customerservice:
+    build: 
+      customerservicecompilation/.
+    volumes: 
+      - /tmp/datavolume/Customer/:/source_code/
     depends_on:
-    - git
+      - git
+  node:
+    build: 
+      node/.
+    volumes:
+      - /tmp/datavolume/b2ctouresbalon/:/source_code/
+    depends_on:
+      - git
   httpd:
     build: httpd/.
     volumes:
-    - /tmp/datavolume/b2ctouresbalon/:/site/
+      - /tmp/datavolume/b2ctouresbalon/:/site/
     ports:
-    - "8080:80"
+      - "8080:80"
     depends_on:
-    - node
+      - node
