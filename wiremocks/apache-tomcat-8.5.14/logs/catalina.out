@@ -1,0 +1,67 @@
+09-May-2017 21:50:23.308 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.14
+09-May-2017 21:50:23.312 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 13 2017 12:55:45 UTC
+09-May-2017 21:50:23.312 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.14.0
+09-May-2017 21:50:23.312 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+09-May-2017 21:50:23.312 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.8.0-49-generic
+09-May-2017 21:50:23.312 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-May-2017 21:50:23.312 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+09-May-2017 21:50:23.312 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-8u121-b13-0ubuntu1.16.04.2-b13
+09-May-2017 21:50:23.312 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-May-2017 21:50:23.312 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/performance/apache-tomcat-8.5.14
+09-May-2017 21:50:23.312 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/performance/apache-tomcat-8.5.14
+09-May-2017 21:50:23.313 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/performance/apache-tomcat-8.5.14/conf/logging.properties
+09-May-2017 21:50:23.313 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-May-2017 21:50:23.313 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-May-2017 21:50:23.314 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-May-2017 21:50:23.314 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/performance/apache-tomcat-8.5.14
+09-May-2017 21:50:23.314 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/performance/apache-tomcat-8.5.14
+09-May-2017 21:50:23.314 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/performance/apache-tomcat-8.5.14/temp
+09-May-2017 21:50:23.315 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+09-May-2017 21:50:23.438 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-May-2017 21:50:23.468 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-May-2017 21:50:23.470 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+09-May-2017 21:50:23.471 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-May-2017 21:50:23.472 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 796 ms
+09-May-2017 21:50:23.508 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio Catalina
+09-May-2017 21:50:23.517 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.14
+09-May-2017 21:50:23.552 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo /home/performance/apache-tomcat-8.5.14/webapps/sample-war-1.war de la aplicación web
+09-May-2017 21:50:24.949 INFORMACIÓN [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+09-May-2017 21:50:26.216 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /home/performance/apache-tomcat-8.5.14/webapps/sample-war-1.war has finished in 2.664 ms
+09-May-2017 21:50:26.224 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio /home/performance/apache-tomcat-8.5.14/webapps/manager de la aplicación web
+09-May-2017 21:50:26.272 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/performance/apache-tomcat-8.5.14/webapps/manager has finished in 48 ms
+09-May-2017 21:50:26.293 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio /home/performance/apache-tomcat-8.5.14/webapps/ROOT de la aplicación web
+09-May-2017 21:50:26.328 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/performance/apache-tomcat-8.5.14/webapps/ROOT has finished in 35 ms
+09-May-2017 21:50:26.333 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio /home/performance/apache-tomcat-8.5.14/webapps/examples de la aplicación web
+09-May-2017 21:50:26.584 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/performance/apache-tomcat-8.5.14/webapps/examples has finished in 251 ms
+09-May-2017 21:50:26.585 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio /home/performance/apache-tomcat-8.5.14/webapps/host-manager de la aplicación web
+09-May-2017 21:50:26.610 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/performance/apache-tomcat-8.5.14/webapps/host-manager has finished in 25 ms
+09-May-2017 21:50:26.611 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio /home/performance/apache-tomcat-8.5.14/webapps/docs de la aplicación web
+09-May-2017 21:50:26.629 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/performance/apache-tomcat-8.5.14/webapps/docs has finished in 18 ms
+09-May-2017 21:50:26.638 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-May-2017 21:50:26.665 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+09-May-2017 21:50:26.695 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 3222 ms
+09-May-2017 21:52:26.698 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto /sample-war-1
+09-May-2017 21:52:26.753 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo /home/performance/apache-tomcat-8.5.14/webapps/sample-war-1.war de la aplicación web
+09-May-2017 21:52:28.269 INFORMACIÓN [Finalizer] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load org.apache.log4j.spi.LoggingEvent.  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+ java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load org.apache.log4j.spi.LoggingEvent.  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1305)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1293)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1158)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.log(Category.java:856)
+	at org.apache.commons.logging.impl.Log4JLogger.debug(Log4JLogger.java:155)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:388)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.finalize(PoolingHttpClientConnectionManager.java:200)
+	at java.lang.System$2.invokeFinalize(System.java:1270)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+09-May-2017 21:52:28.502 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /home/performance/apache-tomcat-8.5.14/webapps/sample-war-1.war has finished in 1.749 ms

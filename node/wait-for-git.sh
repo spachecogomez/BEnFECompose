@@ -8,5 +8,7 @@ do
 	ping -c 1 $1 
 done
 >&2 echo ">>>>>>>>>> done"
+ln -fs /environment.ts src/environments/environment.ts
 npm install
-ng build
+npm install -g @angular-cli
+ng build --env=docker

@@ -8,5 +8,4 @@ do
 	ping -c 1 $1 
 done
 >&2 echo ">>>>>>>>>> done"
-ls -la
 mvn clean install

@@ -1,4 +1,4 @@
-version: "2"
+version: "3"
 services: 
   git:
     build: 
@@ -12,6 +12,17 @@ services:
       - /tmp/datavolume/Customer/:/source_code/
     depends_on:
       - git
+    ports:
+      - "82:8080"
+  orderservice:
+    build: 
+      orderservice/.
+    volumes: 
+      - /tmp/datavolume/Order/:/source_code/
+    depends_on:
+      - git
+    ports:
+      - "81:8080"
   node:
     build: 
       node/.
@@ -19,11 +30,20 @@ services:
       - /tmp/datavolume/b2ctouresbalon/:/source_code/
     depends_on:
       - git
+  mocks:
+    build: 
+      wiremocks/.
+    volumes:
+      - /tmp/datavolume/wiremock/sample-war/:/code/
+    depends_on:
+      - git
   httpd:
     build: httpd/.
     volumes:
       - /tmp/datavolume/b2ctouresbalon/:/site/
     ports:
-      - "8080:80"
+      - "83:80"
+    links:
+      - orderservice
     depends_on:
       - node
