@@ -9,4 +9,5 @@ do
 done
 >&2 echo ">>>>>>>>>> done"
 ls -la /code
+cd /sample-war
 gradle build

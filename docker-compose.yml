@@ -34,7 +34,7 @@ services:
     build: 
       wiremocks/.
     volumes:
-      - /tmp/datavolume/wiremock/sample-war/:/code/
+      - /tmp/datavolume/wiremock/:/code/
     depends_on:
       - git
   httpd:
